@@ -1,0 +1,469 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,
+body{
+    height: 100%;
+    /* font-family: 'Poppins', sans-serif; */
+    width: 100%;
+}
+nav{
+    display: flex;
+    margin-top: 15px;
+}
+nav h2{
+    margin-top: 15px;
+    margin-left: 40px;
+    font-size: 30px;
+}
+nav ul{
+    display: flex;
+    margin-left: 860px;
+    list-style: none;
+    /* font-size: 18px; */
+}
+nav ul li{
+    margin: 15px 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+#contactbtn{
+    padding: 0 15px;
+    border-radius: 30px ;
+}
+
+#contactbtn::before{ 
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background-color: rgb(76, 240, 68);
+    transition: 0.25s;
+    z-index: -1;
+}
+#contactvtn:hover::before{
+    width: 100%;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 92%;
+    width: 100%;
+}
+.subcontainer{
+    text-align: center;
+    margin-top: 78px;
+    z-index: 10;
+    margin-bottom: 95px;
+}
+
+.subcontainer h2{
+    font-size: 76px;
+    font-weight: 300;
+    /* margin-bottom: 15px; */
+}
+.subcontainer h6{
+    display: inline-block;
+    font-size: 25px;
+    font-weight: 100;
+
+}
+.subcontainer button{
+    margin-left: 10px;
+    padding: 5px 30px;
+    border-radius: 30px;
+
+}
+.m1{
+    position: absolute;
+    top: 15%;
+    left: 9%;
+    height:70%;
+    width: 25%;
+    background-image: url("https://optimise2.assets-servd.host/squalid-loris/production/uploads/images/This-is-digital-LOW-RES-75.jpg?w=1200&h=1731&q=80&fm=webp&fit=crop&fp-x=0.5&fp-y=0.5&dm=1631017685&s=333b9abfa858cf7b8685e28a597dfa08");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    transition: 0.25s linear all ;
+}
+.m1:hover{
+    top: 14%;
+}
+.m2{
+    height: 200px;
+    width: 200px;
+    background-image: url(https://optimise2.assets-servd.host/squalid-loris/production/uploads/images/This-is-digital-LOW-RES-23.jpg?w=1200&h=1008&q=80&fm=webp&fit=crop&fp-x=0.5&fp-y=0.5&dm=1631003343&s=88354e145206a527c989b49f760a89d3);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    top :20%;
+    left: 60%;
+
+}
+.m3{
+    position: absolute;
+    bottom: 10%;
+    right: 10%;
+    height:300px;
+    width: 300px;
+    background-image: url("https://optimise2.assets-servd.host/squalid-loris/production/uploads/images/This-is-digital-LOW-RES-81.jpg?w=1200&h=1200&q=80&fm=webp&fit=crop&fp-x=0.5&fp-y=0.5&dm=1631005177&s=21e4c0bb5ce83f57e69f404637d61265");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    transition: 0.25s linear all ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    transition: 0.25s linear all ;
+}
+.info{
+    height: 60%;
+    background-color: black;
+    text-align: center;
+    padding: 100px 20% 0 20%;
+}
+.info ul{
+    list-style: none;
+    padding-bottom: 25px;
+}
+.info ul li a{
+    font-size: 20px;
+    text-decoration: none;
+    color: #fff;
+}
+.info h6{
+    font-size: 20px;
+    display: inline-block;
+    color: #fff;
+}
+.info p{ 
+    font-size: 50px;
+    line-height: 55px;
+    color: aliceblue;
+    margin-bottom: 18px;
+}
+.info button{
+    margin: 10px 0 0 20px;
+    padding: 5px 25px;
+    border-radius: 30px;
+}
+.greendort{
+    position: relative;
+    bottom: 280px;
+    left: 190px;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: greenyellow;
+}
+.container2{
+    height: 120%;
+    width: 100%;
+    padding: 14% 7% 0 55%;
+}
+.container2 h4{
+    font-size: 60px;
+    font-weight: 300;
+    margin-bottom: 30px;
+}
+.container2 p{
+    font-size: 20px;
+    line-height: 30px;
+
+}
+.container2 h6{
+    display: inline-block;
+    font-size: 25px;
+    color: rgb(130, 217, 0);
+    font-weight: 300;
+    margin-right: 30px;
+    margin-top: 25px;
+    margin-left: 50px;
+    background-color: rgb(214, 253, 214);
+}
+.container2 button{
+    padding: 5px 20px;
+    border-radius: 30px;
+    background-color: #fff;
+}
+.photo{
+    position: relative;
+    left: 0%;
+    bottom: 4.5%;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-image: url("myphoto.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+#img1{
+    height: 60%;
+    width: 160px;
+    background-image: url(https://optimise2.assets-servd.host/squalid-loris/production/uploads/images/This-is-digital-LOW-RES-69.jpg?w=800&h=2518&q=80&fm=webp&fit=crop&fp-x=0.5&fp-y=0.5&dm=1631002290&s=33b3b284e2298e725e8837d662a3f3bd);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    top: 160%;
+    left: 0;
+}
+#img2{
+    height: 30%;
+    width: 400px;
+    background-image: url("https://optimise2.assets-servd.host/squalid-loris/production/uploads/images/This-is-digital-LOW-RES-10.jpg?w=1200&h=750&q=80&fm=webp&fit=crop&fp-x=0.5&fp-y=0.5&dm=1631002227&s=e9befa27c3cb6b4742db66b7d49131e1");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    top: 160%;
+    left: 190px;
+}
+#img3{
+    height: 30%;
+    width: 160px;
+    background-image: url("https://optimise2.assets-servd.host/squalid-loris/production/uploads/images/This-is-digital-LOW-RES-82.jpg?w=800&h=1200&q=80&fm=webp&fit=crop&fp-x=0.5&fp-y=0.5&dm=1631002337&s=2c36e03420200c6347fed613ee6ed7d3");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    top: 224%;
+    left: 0; 
+}
+#img4{
+    height: 80%;
+    width: 500px;
+    background-image: url("https://optimise2.assets-servd.host/squalid-loris/production/uploads/images/This-is-digital-LOW-RES-2.jpg?w=1200&h=1353&q=80&fm=webp&fit=crop&fp-x=0.5&fp-y=0.5&dm=1631002176&s=5d4bc2c79348dc9d5effc2ed0a267366");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    top: 195%;
+    left: 190px;
+}
+.container3{
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    padding: 5% 10% 0 10%;
+}
+.container3 h6{
+    font-size: 8vh;
+    font-weight: 300;
+    margin-bottom: 18px;
+}
+.brands{
+    height: 70%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto ;
+    grid-template-rows: 150px 150px 150px;
+    grid-row-gap: 10px;
+    grid-column-gap: 35px;
+}
+#brimg1{
+    background-image: url("https://optimise2.assets-servd.host/squalid-loris/production/uploads/images/logos/Logos-Black/AG.png?w=400&q=80&fm=webp&fit=crop&fp-x=0.5&fp-y=0.5&dm=1638358201&s=19390b505884286f2fc48977c2705767");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+#brimg2{
+    background-image: url("https://optimise2.assets-servd.host/squalid-loris/production/uploads/images/logos/Logos-Black/BA.png?w=400&q=80&fm=webp&fit=crop&fp-x=0.5&fp-y=0.5&dm=1638358185&s=251ba5970df8be67b8bcf56be49d1418");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}#brimg3{
+    background-image: url("https://optimise2.assets-servd.host/squalid-loris/production/uploads/images/logos/Logos-Black/Beaverbrooks.png?w=400&q=80&fm=webp&fit=crop&fp-x=0.5&fp-y=0.5&dm=1638358190&s=f094f0c6c3eebde60a214f67471b58d1");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}#brimg4{
+    background-image: url("https://optimise2.assets-servd.host/squalid-loris/production/uploads/images/logos/Logos-Black/Brittany.png?w=400&q=80&fm=webp&fit=crop&fp-x=0.5&fp-y=0.5&dm=1638358192&s=4571e18ec4758315f6378cfbcd85b0b7");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}#brimg5{
+   
+    background-image: url("https://optimise2.assets-servd.host/squalid-loris/production/uploads/images/logos/Logos-Black/bruntwood.png?w=400&q=80&fm=webp&fit=crop&fp-x=0.5&fp-y=0.5&dm=1638358173&s=fc8b16eaaa208f842a98dbe3b7df140c");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}#brimg6{
+   
+    background-image: url("https://optimise2.assets-servd.host/squalid-loris/production/uploads/images/logos/Logos-Black/Footasylum.png?w=400&q=80&fm=webp&fit=crop&fp-x=0.5&fp-y=0.5&dm=1638358180&s=10a38429e9eab2416b290bfbb3a86340");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}#brimg7{
+  
+    background-image: url("https://optimise2.assets-servd.host/squalid-loris/production/uploads/images/logos/Logos-Black/Google.png?w=400&q=80&fm=webp&fit=crop&fp-x=0.5&fp-y=0.5&dm=1638358181&s=15f45f8c5f00b59980868ef93adcd94a");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}#brimg8{
+ 
+    background-image: url("https://optimise2.assets-servd.host/squalid-loris/production/uploads/images/logos/Logos-Black/Jollyes.png?w=400&q=80&fm=webp&fit=crop&fp-x=0.5&fp-y=0.5&dm=1638358174&s=2512c51711df9fc4c910c8c52860abc2");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}#brimg9{
+  
+    background-image: url("https://optimise2.assets-servd.host/squalid-loris/production/uploads/images/logos/Logos-Black/ISIF.png?w=400&q=80&fm=webp&fit=crop&fp-x=0.5&fp-y=0.5&dm=1638358182&s=0b5f75ce7faed09c2a0d728d91fd3fc4");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}#brimg10{
+    
+    background-image: url("https://optimise2.assets-servd.host/squalid-loris/production/uploads/images/logos/Logos-Black/LCFC.png?w=400&q=80&fm=webp&fit=crop&fp-x=0.5&fp-y=0.5&dm=1638358178&s=9c2373f022b1020a731135133ff89fbc");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}#brimg11{
+  
+    background-image: url("https://optimise2.assets-servd.host/squalid-loris/production/uploads/images/logos/Logos-Black/Man-Uni.png?w=400&q=80&fm=webp&fit=crop&fp-x=0.5&fp-y=0.5&dm=1638358193&s=9d36195f07e462959a828bb7b1208568");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}#brimg12{
+ 
+    background-image: url("https://optimise2.assets-servd.host/squalid-loris/production/uploads/images/logos/Logos-Black/RS.png?w=400&q=80&fm=webp&fit=crop&fp-x=0.5&fp-y=0.5&dm=1638358183&s=60678f650c2378dced899f26844ffe3c");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}#brimg13{
+   
+    background-image: url("https://optimise2.assets-servd.host/squalid-loris/production/uploads/images/logos/Logos-Black/AG.png?w=400&q=80&fm=webp&fit=crop&fp-x=0.5&fp-y=0.5&dm=1638358201&s=19390b505884286f2fc48977c2705767");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}#brimg14{
+  
+    background-image: url("https://optimise2.assets-servd.host/squalid-loris/production/uploads/images/logos/Logos-Black/Ryman.png?w=400&q=80&fm=webp&fit=crop&fp-x=0.5&fp-y=0.5&dm=1638358194&s=98b18c3fab912a2d35ea223c2139a3c5");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}#brimg15{
+    
+    background-image: url("https://optimise2.assets-servd.host/squalid-loris/production/uploads/images/logos/Logos-Black/Skin.png?w=400&q=80&fm=webp&fit=crop&fp-x=0.5&fp-y=0.5&dm=1638358194&s=8ea47e706b77170826b6c61f602b5253");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+.lastmainbox{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.last1box{
+    height: 58%;
+    width: 41%;
+    overflow: hidden;
+}
+
+.lastbox{
+    height: 100%;
+    width: 100%;
+    padding: 10%;
+    background-image: url("https://optimise2.assets-servd.host/squalid-loris/production/uploads/images/work/Golf.jpeg?w=1200&h=900&q=80&fm=webp&fit=crop&fp-x=0.5&fp-y=0.5&dm=1635867985&s=5e7cee6801a656523b56b64a34d04786");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    transition: 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    transform: scale(1);
+}
+.last1box:hover .lastbox{
+    transform: scale(1.1);
+}
+.overlay{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0,0,0.2);
+    position: relative;
+    top: -459px;
+    left: 0;
+    z-index: -1;
+
+}
+.last1box h4{
+    font-size: 35px;
+    color: rgb(241, 241, 241);
+    padding: 30px;
+    
+}
+.lastbox p{
+    font-size: 50px;
+    color: #fff;
+}
+.last1box button{
+    margin-top: 10px;
+    height: 50px;
+    width: 90px;
+    font-size: 15px;
+    border-radius: 5px;
+    border: none;
+}
+.last2box{
+    height: 58%;
+    width: 41%;
+    margin-left: 40px;
+    overflow: hidden;
+}
+.last22box{
+    height: 100%;
+    width: 100%;
+    padding: 10%;
+    background-image: url("https://optimise2.assets-servd.host/squalid-loris/production/uploads/images/work/work-thumbnail-03.jpg?w=1200&h=900&q=80&fm=webp&fit=crop&fp-x=0.5&fp-y=0.5&dm=1627573623&s=efbebf8d2134c057c66886c970e18069");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    transition: 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    transform: scale(1);
+}
+.last2box:hover .last22box{
+    transform: scale(1.1);
+}
+.overlay2{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0,0,0.2);
+    position: relative;
+    top: -459px;
+    left: 0;
+    z-index: -1;
+
+
+}
+.last22box h4{
+    font-size: 35px;
+    color: rgb(241, 241, 241);
+    padding: 30px;
+    
+}
+.last22box p{
+    font-size: 50px;
+    color: #fff;
+}
+.last22box button{
+    margin-top: 20px;
+    height: 50px;
+    width: 90px;
+    font-size: 15px;
+    border-radius: 5px;
+    border: none;
+}
+
+
+
+
